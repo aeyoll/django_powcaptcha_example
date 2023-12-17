@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "django-powcaptcha-example"
+version = "0.1.0"
+description = ""
+authors = ["Jean-Philippe Bidegain <jp@bidega.in>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "^5.0"
+crispy-tailwind = "^0.5.0"
+django-powcaptcha = {git = "https://github.com/aeyoll/django-powcaptcha.git"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
